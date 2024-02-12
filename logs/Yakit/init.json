@@ -1,0 +1,82 @@
+{
+    "context": {
+        "transaction_id": "04e3aa32-02ac-4380-af4c-9ffebb96943d",
+        "country": "IND",
+        "bpp_id": "qa.yakit.com",
+        "city": "std:080",
+        "message_id": "94c141c1-0783-47d1-8afb-8f1b295f8de9",
+        "core_version": "1.2.0",
+        "ttl": "PT30S",
+        "bap_id": "devapigateway.bizom.in/ondc",
+        "domain": "nic2004:60232",
+        "bpp_uri": "https://qa.yakit.com/api/yakit/",
+        "action": "on_search",
+        "bap_uri": "https://devapigateway.bizom.in/ondc",
+        "timestamp": "2024-02-09T13:33:06.865Z"
+    },
+    "message": {"order": {
+        "fulfillments": [{
+            "start": {
+                "contact": {
+                    "phone": "9999999999",
+                    "email": "test@test.com"
+                },
+                "location": {
+                    "address": {
+                        "country": "India",
+                        "city": "Bengalore",
+                        "area_code": "560076",
+                        "name": "Yakit office",
+                        "locality": "Hulimavu",
+                        "state": "Karnataka",
+                        "building": "Nandikeswars Building"
+                    },
+                    "gps": "12.8813477,77.5946494"
+                }
+            },
+            "end": {
+                "contact": {
+                    "phone": "9654543723",
+                    "email": "harsh.mohta@magicpin.in"
+                },
+                "location": {
+                    "address": {
+                        "country": "India",
+                        "city": "Bengalore",
+                        "area_code": "560103",
+                        "name": "Lokanda",
+                        "locality": "Bellandur",
+                        "state": "Karnataka",
+                        "building": "Ecospace Internal Rd, Adarsh Palm Retreat"
+                    },
+                    "gps": "12.927208,77.681028"
+                }
+            },
+            "id": "1",
+            "type": "Delivery"
+        }],
+        "provider": {"id": "provider-0"},
+        "payment": {"@ondc/org/settlement_details": []},
+        "items": [{
+            "category_id": "Standard Delivery",
+            "id": "item-0",
+            "descriptor": {"code": "P2P"}
+        }],
+        "billing": {
+            "address": {
+                "country": "India",
+                "city": "Bengalore",
+                "area_code": "560076",
+                "locality": "Hulimavu",
+                "state": "Karnataka",
+                "building": "Nandikeswars Building"
+            },
+            "updated_at": "2024-02-09T13:33:06.865Z",
+            "phone": "9999999999",
+            "tax_number": "pan_number",
+            "name": "Yakit office",
+            "created_at": "2024-02-09T13:33:06.865Z",
+            "email": "lok@gmail.com"
+        }
+    }}
+}
